@@ -1,0 +1,5 @@
+.Wrap {
+    flex-basis: 70%;
+    overflow: auto;
+    /* text-align: center; */
+}

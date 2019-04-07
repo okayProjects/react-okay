@@ -1,0 +1,30 @@
+.Offer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: none;
+    width: 100%;
+    height: 100%;
+    animation: bgcChange 1s linear;
+}
+
+.OfferActive {
+    display: flex;
+}
+
+@keyframes bgcChange {
+    from {
+        background-color: #322;
+    }
+    to {
+        background-color: #fff;
+    }
+}
+
+
+@media(max-width:1200px){
+   /* .Offer {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   } */
+}

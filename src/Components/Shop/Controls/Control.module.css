@@ -1,0 +1,26 @@
+.Wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Button {
+    font-size: inherit;
+    margin: 0 20px;
+    outline: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    background-color: brown;
+    color: #fff;
+    border: 1px solid black;
+}
+
+[disabled] {
+    color: grey;
+    background-color: lightgrey;
+    cursor: auto;
+}

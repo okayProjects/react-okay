@@ -1,0 +1,44 @@
+.Logo {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    letter-spacing: 2px;
+    font-size: 2.2em;
+    transform: rotate(360deg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.Logo li{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.Logo li:first-child {
+    color: rgb(223, 14, 153);
+    font-size: 1.4em;
+    transform: rotate(25deg);
+}
+
+.Logo li:nth-child(2) {
+    color: orange;
+}
+.Logo li:nth-child(3) {
+    color: green;
+}
+.Logo li:nth-child(4) {
+    color: blue;
+}
+
+
+@media(max-width:1200px){
+    .Logo {
+        font-size: 1.4em;
+    }
+}

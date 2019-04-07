@@ -1,0 +1,8 @@
+.Wrap {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin-bottom: 20px;
+}

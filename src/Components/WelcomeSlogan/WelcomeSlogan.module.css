@@ -1,0 +1,140 @@
+.WelcomeSlogan {
+    background-color: #322;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Slogan, .Hello {
+    box-sizing: border-box;
+    padding: 0;
+    color: #fff;
+    font-size: 5.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Hello {
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 2.5em;
+    flex-basis: 100%;
+    text-align: center;
+    margin: -32% 0 0 23%;
+}
+
+.Ul{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 5.5em;
+    transition: 1s;
+}
+
+.Ul li{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Ul li:first-child {
+    color: rgb(223, 14, 153);
+    font-size: 1.4em;
+    transform: rotate(25deg);
+    opacity: 0;
+}
+
+.Ul li:nth-child(2) {
+    color: orange;
+    opacity: 0;
+    animation: liScaleChange 3s linear;
+}
+.Ul li:nth-child(3) {
+    color: green;
+    opacity: 0;
+    animation: liScaleChange 3s linear;
+}
+.Ul li:nth-child(4) {
+    color: blue;
+    opacity: 0;
+    animation: liScaleChange 3s linear;
+}
+
+.Off {
+    display: none;
+}
+
+.LogoTranslate {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    letter-spacing: 2px;
+    font-size: 2em;
+    transform: rotate(360deg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Burger {
+    display: none;
+}
+
+
+@keyframes liScaleChange {
+    0% {
+        transform: scale(0);
+    }
+    24% {
+        transform: scale(1.3);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: scale(1.8);
+    }
+    75% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+@media(max-width: 1200px) {
+
+    .Slogan{
+        margin: auto;
+        font-size: 4em;
+         flex-basis: 100%;
+         text-align: center;
+    }
+    .Hello {
+        font-size: 1.8em;
+        margin: 40% auto;
+    
+    }
+    .Ul{
+        font-size: 4em;
+        text-align: center;
+        margin: auto;
+        
+    }
+} 
+
+/* @media (max-width: 800px)and(orientation: landscape){
+    .wrap{
+        flex-direction: column;
+    }
+    .hello {
+        font-size: 1.8em;
+        margin: auto;
+    
+    }
+    
+} */

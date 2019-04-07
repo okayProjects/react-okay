@@ -1,0 +1,16 @@
+.Wrap {
+    /* background-color:lightgrey; */
+    padding: 10px;
+}
+
+.H3 {
+    color: brown;
+    font-size: 22px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.Wrap p, .Wrap span {
+    font-size: 17px;
+}

@@ -1,0 +1,15 @@
+.Wrap {
+    margin-bottom: 20px;
+}
+
+.Paragraph {
+    font-size: 16px;
+    color: #002;
+    width:50%;
+}
+
+.Heading {
+    color: brown;
+    margin: 0;
+}
+

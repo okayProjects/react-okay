@@ -1,0 +1,15 @@
+.Label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Option {
+    font-size: 18px;
+    
+}
+
+.Select {
+    margin-left: 10px;
+    padding: 5px 5px;
+    font-size: 18px;
+}

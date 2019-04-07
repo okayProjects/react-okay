@@ -1,0 +1,26 @@
+.Wrap {
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    flex-basis: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+    transition: .3s;
+}
+.Wrap:hover {
+    transform: scale(1.01);
+    box-shadow: 9px 7px 10px grey;
+}
+
+.SectionWrapper {
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color:darkgrey;
+}
+
+.OrderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
